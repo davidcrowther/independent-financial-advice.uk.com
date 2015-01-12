@@ -1,0 +1,70 @@
+/* Font-face */
+
+@font-face {
+    font-family: 'quattrocento_sansregular';
+    src: url('../fonts/quattrocentosans-regular.eot');
+    src: url('../fonts/quattrocentosans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quattrocentosans-regular.woff') format('woff'),
+         url('../fonts/quattrocentosans-regular.ttf') format('truetype'),
+         url('../fonts/quattrocentosans-regular.svg#quattrocento_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quattrocento_sansitalic';
+    src: url('../fonts/quattrocentosans-italic.eot');
+    src: url('../fonts/quattrocentosans-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quattrocentosans-italic.woff') format('woff'),
+         url('../fonts/quattrocentosans-italic.ttf') format('truetype'),
+         url('../fonts/quattrocentosans-italic.svg#quattrocento_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quattrocento_sansbold';
+    src: url('../fonts/quattrocentosans-bold.eot');
+    src: url('../fonts/quattrocentosans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quattrocentosans-bold.woff') format('woff'),
+         url('../fonts/quattrocentosans-bold.ttf') format('truetype'),
+         url('../fonts/quattrocentosans-bold.svg#quattrocento_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'PROXIMANOVA-BOLD';
+    src: url('../fonts/PROXIMANOVA-BOLD.eot');
+    src: url('../fonts/PROXIMANOVA-BOLD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PROXIMANOVA-BOLD.woff') format('woff'),
+         url('../fonts/PROXIMANOVA-BOLD.ttf') format('truetype'),
+         url('../fonts/PROXIMANOVA-BOLD.svg#PROXIMANOVA-BOLD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'ProximaNovaSemibold';
+    src: url('../fonts/proximanova-semibold-webfont.eot');
+    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-semibold-webfont.svg#ProximaNovaSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

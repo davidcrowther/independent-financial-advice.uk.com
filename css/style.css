@@ -1,0 +1,162 @@
+@import url('fonts.css');
+@import url('bootstrap.css');
+@import url('font-awesome.css');
+
+
+/* General definition */
+body{ font-family: 'quattrocento_sansregular', serif;  width: 100%; max-width: 100%; }
+html.ie8 body{ min-width:  990px;}
+.ff_collection{
+    font-family: 'quattrocento_sansregular';
+    font-family: 'quattrocento_sansitalic';
+    font-family: 'quattrocento_sansbold';
+    font-family: 'PROXIMANOVA-BOLD';
+    font-family: 'ProximaNovaSemibold';
+}
+.outlined, .outlined div {outline:1px solid red;}
+
+/* Setting the typographic  */
+h1,h2,h3,h4,h5,h6{ font-family: 'PROXIMANOVA-BOLD'; line-height: 120%; text-align: center; color: inherit; max-width: 100%; }
+h1{font-size: 3.6em; }
+h2{font-size: 2.8em; }
+h3{font-size: 3.6em; }
+h4{font-size: 1.86em; }
+h5{font-size: 1.3em; }
+ul li, p, dd, dt{ line-height: 148%; margin-bottom: 12px; padding: 0; font-size: 1.16em; color: inherit;  max-width: 100%;  }
+li{ position: relative;}
+img.img-responsive{margin: auto; max-width: 100%;}
+.container{ margin: auto;  max-width: 960px; padding: 0 10px;   }
+p strong{     font-family: 'quattrocento_sansbold'; }
+.row{ margin-left: -10px; margin-right: -10px; }
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 { padding-left: 10px; padding-right: 10px; }
+a{ color: inherit; text-decoration: underline; }
+.nav a, a.btn{ text-decoration: none; }
+.btn{ white-space: normal; }
+
+/* Header */
+header{ min-height: 800px; background: url(../img/header_img.jpg) no-repeat center top #ccc; padding: 8px 0 10px 0;  }
+	header h1{ text-align: left; color: #f76d4a; line-height: 120%; margin-bottom: 10px; }
+	header h2{ text-align: left;  color: #f76d4a; line-height: 123%; margin: 0px 0px 24px 0px; max-width: 400px; }
+	header h4{ text-align: left; color: #3c3636; }
+	header ul{ list-style: none; margin: 34px 0px 14px 0px; padding: 0; color: #3c3636; }
+	header ul li { font-family: 'ProximaNovaSemibold'; padding-left: 24px; margin-bottom: 14px; font-size: 1.3em; } 
+	header ul li .fa{ position: absolute; top: 2px; left: -3px; color: #f76d4a; font-size: 1.16em; }
+
+/* Content general styling  */
+article{ padding:13px 0 40px 0; max-width: 100%; width: 100%;   }
+
+article.blue{ background: #4c85c2; color: #fff; padding: 40px 0 30px 0; }
+article.blue .container{ max-width: 645px; }
+
+/* Form */
+.form-placeholder{   }
+.form-placeholder .form-all{ color: #fff; padding-top: 19px; font-family: 'quattrocento_sansregular' !important; font-size: 1em; }
+.form-placeholder .form-section{ margin: 0; padding: 0; }
+.form-placeholder .form-line{ margin: 0px 0px 10px 0px ; padding: 5px 10px; border-radius: 6px; line-height: 100%; background: transparent; }
+.form-placeholder .form-line{ margin: 0px 0px 10px 0px ; padding: 5px 10px; border-radius: 6px; line-height: 100%; background: transparent; }
+.form-placeholder .row .form-line:first-child{ padding-right: 2px; }
+.form-placeholder .row .form-line:last-child{ padding-left: 2px; }
+.form-placeholder .form-line#id_15 p{ padding: 5px 0 5px 0 ; margin: 0; }
+.form-placeholder .form-line#id_18 p{ padding: 0px 0 0px 0 ; margin: 0; text-align: center; font-family: 'quattrocento_sansregular'; font-size: 1.36em !important; line-height: 100%; }
+.form-placeholder .form-line#id_2 { padding: 0; margin: 2px 0px 4px 0px ;  }
+.form-placeholder .btn-warning, .form-placeholder .btn-warning:hover, .form-placeholder .btn-warning:focus{ margin-bottom: 0; font-size: 1.56em !important; } 
+.form-placeholder .form-line .form-control{ display: block; margin: 0px; width: 100%; height: 41px; border: 0; }
+.form-placeholder .form-line textarea.form-control{ min-height: 90px; resize: none; }
+.form-placeholder .form-line .form-required{  float: none; }
+.form-placeholder .form-line .form-checkbox-item{ display: block; width: 100%; float: none; padding: 0; margin: 0px 0px 10px 0px ; }
+.form-placeholder .form-line .form-input{ display: block; width: 100%; }
+.form-placeholder .form-line.form-line-error{ background: #63afff; }
+.form-placeholder .form-line .form-error-message{ width: 100%; }
+.form-placeholder .form-line label.form-label-left{ color: #fff; display: block; width: 100%; text-align: left; float: none; padding: 0px 0px 5px 0px ; line-height: 100%; font-size: .9em; font-family: 'quattrocento_sansregular' !important; font-weight: normal;  margin: 0; }
+.form-placeholder .form-checkbox-item label { color: #fff; display: inline; text-align: left; float: none; padding: 0px 0px 0px 3px ; line-height: 100%; font-size: .9em; font-family: 'quattrocento_sansregular' !important; font-weight: normal;  margin: 0px 0px 0px 0px ; }
+
+
+article.grey{ color: #7a7a7a; background: #f5f5f5; padding: 28px 0 12px 0; }
+article.grey cite{ font-size: 1.16em; margin-bottom: 11px; font-family: 'quattrocento_sansitalic'; line-height: 157%; display: block; }
+article.grey cite i{ margin-right: 2px; }
+article.grey p.name{   }
+
+
+article.deep-orange{ color: #4f4f4f; background: #ffd996; padding: 40px 0 50px 0; }
+article.deep-orange h3{ margin-bottom: 42px;  }
+article.deep-orange h4{ text-align: left; background: url(../img/arrow.png) no-repeat 176px 7px; font-size: 2.16em; margin-bottom: 13px; }
+article.deep-orange .col-xs-4:last-child h4{ background: none; }
+article.deep-orange h4 .badge{ color: #fff; background: #4f4f4f; border-radius: 100%; vertical-align: top; font-size: 23px; margin: 0 4px; width: 36px; text-align: center; height: 34px; line-height: 30px; overflow: hidden; font-family: Arial; }
+article.deep-orange p{ line-height: 170%;  }
+
+article.white{ color: #4f4f4f; background: #fff; padding: 38px 0 53px 0; }
+article.white .container{ max-width: 810px; }
+article.white h3{ margin-bottom: 29px; margin-top: 56px; }
+article.white h3:first-child{ margin-top: 19px; }
+article.white p{ margin-bottom: 17px; color: #7a7a7a; }
+
+.btn-warning, .btn-warning:hover, .btn-warning:focus  { 
+background: #ffdcb4;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZGNiNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIlIiBzdG9wLWNvbG9yPSIjZmZjOThlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmYmQ3NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #ffdcb4 0%, #ffc98e 2%, #ffbd75 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdcb4), color-stop(2%,#ffc98e), color-stop(100%,#ffbd75));
+background: -webkit-linear-gradient(top,  #ffdcb4 0%,#ffc98e 2%,#ffbd75 100%);
+background: -o-linear-gradient(top,  #ffdcb4 0%,#ffc98e 2%,#ffbd75 100%);
+background: -ms-linear-gradient(top,  #ffdcb4 0%,#ffc98e 2%,#ffbd75 100%);
+background: linear-gradient(to bottom,  #ffdcb4 0%,#ffc98e 2%,#ffbd75 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdcb4', endColorstr='#ffbd75',GradientType=0 );
+color: #723c03;
+outline: none;
+border: 1px solid #723c03 !important;
+font-family: 'PROXIMANOVA-BOLD';
+font-size: 1.7em !important;
+padding: 11px 20px;
+max-width: 100%; 
+width: 619px;
+ }
+footer{ background: #f77263; color: #fff; text-align: center; padding: 40px 0 35px 0; }
+footer h3{  margin-bottom: 13px; max-width: 700px; margin: auto; margin-bottom: 14px; }
+footer p{  margin: 5px 0; font-size: 1.4em; }
+
+/* Media Queries */
+/* Media */
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 991px) {
+
+
+}
+
+@media (max-width: 767px) {
+	
+	/* Grid reset */
+	.container{ padding-left: 15px; padding-right: 15px; }
+	.col-xs-1,
+	.col-xs-2,
+	.col-xs-3,
+	.col-xs-4,
+	.col-xs-5,
+	.col-xs-6,
+	.col-xs-7,
+	.col-xs-8,
+	.col-xs-9,
+	.col-xs-10,
+	.col-xs-11,
+	.col-xs-12
+	{ float: none; width: 100%; }
+	
+
+}
+
+@media (max-width: 480px) {
+	
+
+}
